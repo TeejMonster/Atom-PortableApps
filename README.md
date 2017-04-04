@@ -27,3 +27,7 @@ After downloading the contents of this repository, your directory structure shou
 Simply download the latest stable zip release of [Atom](https://atom.io/) from the [Atom Gihub Repository](https://github.com/atom/atom/releases/) and unzip the files directly into the directory __AtomPortable\App\Atom__.
 
 More information on creating PortableApps for the PortableApps.com platform can be found on the  [PortableApps.com Development Page](http://portableapps.com/development).
+
+Known Issues
+-------------
+When launching the app normally, everything works as expected.  However, when the app is launched by opening a file, the command line arguments sent that make Atom function as a portable app do not get sent.  This causes Atom to run as if the vanilla zip version was run without modification.
